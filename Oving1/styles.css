@@ -1,0 +1,86 @@
+body{
+  background-image: url(skog1.JPG);
+  background-size: cover;
+  background-attachment: fixed;
+}
+h1{
+  text-align: center;
+  font-size: 50px;
+}
+h3{
+  color: white;
+  font-size: 10px;
+  text-align: left;
+  padding: 5px;
+  text-decoration: none;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover:not(.active) {
+  background-color: #111;
+}
+.active {
+  background-color: pink;
+}
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    text-align: center;
+    margin-left: 0px;
+    padding: 0px;
+}
+.flex-container > * {
+    flex: 100%;
+}
+.meny {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  opacity: 0.6;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  height: auto;
+  margin-right: auto;
+}
+.main {
+    text-align: left;
+    background: transparent;
+    -webkit-align-self: stretch;
+    align-self: stretch;
+}
+.text{
+  background-color: pink;
+  margin: 100px 25% 15% 25%;
+  padding: 15px;
+}
+.header {
+  margin-top: 10px;
+  background: transparent;
+}
+.footer {
+  position: static;
+  background-color: #333;
+  opacity: 0.6;
+  bottom: 0px;
+  width: 100%;
+  height: auto;
+  margin-bottom: 0px;
+}
+@media all and (min-width: 800px) {
+    .meny {order: 1;}
+    .main    { order: 2; }
+    .footer  { order: 3; }
+}

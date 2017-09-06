@@ -1,0 +1,15 @@
+Hvordan jeg har løst kravene:
+1. CSS: Har eksperimentert litt med gjennomsiktige bokser,
+og prøvd å få det til å se rimelig ryddig ut.
+(Jeg har ikke hatt webteknologi så dette var det beste jeg fikk til for øyeblikket)
+2. CSS Flexbox: Jeg har fire hovedboxer: Meny, main, header og footer.
+Innenfor main har jeg en til box kalt text.
+3. Javascript: På index-siden har jeg gjort det mulig å klikke på bildet
+for å få et nytt et. Har brukt onclick.
+På about-siden har jeg brukt onmouseenter og onmouseleave for å få endring i bildet
+når man tar musepekeren over.
+4. Favicon: Jeg har brukt et tre som favicon.
+5. Gyldig HTML: Jeg har brukt det jeg fant på w3schools.com noe som er rimelig
+basic og skal fungere i de fleste nettleserne.
+6. CSS og Javascript i egne filer: Jepp, det er gjort.
+7. Dokumentasjon: Det er denne filen!
